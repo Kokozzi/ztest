@@ -16,3 +16,5 @@ class ZTest(TestCase):
         self.isin = self.assertIn
         self.not_in = self.assertNotIn
         self.almost_eq = self.assertAlmostEqual
+
+        self.isinstance = self.assertIsInstance
