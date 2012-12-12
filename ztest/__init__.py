@@ -18,3 +18,4 @@ class ZTest(TestCase):
         self.almost_eq = self.assertAlmostEqual
 
         self.isinstance = self.assertIsInstance
+        self.raises = self.assertRaises
