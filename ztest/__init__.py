@@ -19,3 +19,4 @@ class ZTest(TestCase):
 
         self.isinstance = self.assertIsInstance
         self.raises = self.assertRaises
+        self.items_eq = self.assertItemsEqual

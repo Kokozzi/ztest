@@ -3,7 +3,7 @@
 from setuptools import setup
 
 setup(name='ztest',
-      description='not java unittest',
+      description='not camelCase unittest',
       author='dsociative',
       author_email='admin@geektech.ru',
       packages=['ztest'],
