@@ -22,3 +22,4 @@ class ZTest(TestCase):
 
         self.raises = self.assertRaises
         self.items_eq = self.assertItemsEqual
+        self.raises_re = self.assertRaisesRegexp
